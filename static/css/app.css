@@ -1,0 +1,63 @@
+  body {
+  margin: 0px;
+  /*height: 100vh;*/
+}
+
+#logo-image {
+  width: 300px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.body-content {
+     width:100%;
+     height:80vh;
+     text-align: center;
+}
+
+.body-content:before {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+  }
+
+
+.body-text {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+
+@media (max-width: 500px) {
+  #logo-image {
+    width: 80%;
+  }
+
+  body {
+    font-size: 4em;
+    background-color: black;
+  }
+/*
+  .body-content {
+       width:100%;
+       height:20vh;
+  }
+
+  .body-text {
+    padding: 0 40px;
+  }*/
+}
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+  color: #222;
+  transition: color 0.25s ease-out;
+  cursor: pointer;
+}
+a:hover {
+  color: #777;
+}
